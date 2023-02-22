@@ -1,0 +1,480 @@
+*{
+    padding: 0;
+    margin: 0;
+    }
+    
+    
+    html{
+    font-size: 62,5%;
+    }
+
+    /*MOBILE FIRST*/
+
+    body { background-image: url(../img/fondobody.jpg);}
+
+/*NAVEGADOR*/
+.navbar-brand{
+    position:absolute;}
+
+.navbar-brand, img {
+    height: 6rem;
+    width: 6rem;
+}
+.navbar-expand-lg{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    background-color: #f5f5dc;
+}
+.navbar-collapse {
+    display: flex;
+    flex-direction:column;}
+
+/*CONTENEDOR DEL INICIO Y EL LOGO*/
+.div_ul{
+    margin-right: 11rem;
+    margin-left: 1rem
+}
+
+/* TEXTO DEL*/
+nav, ul, li{
+    list-style: none;
+    align-items: center;
+    }
+
+.nav-link {
+    text-decoration: none;
+    font-family:'Dosis', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1rem;
+    margin:0.3rem;
+    color:#21130d;
+    text-transform: uppercase;
+        
+    }
+/*MAIN INICIO*/
+.div_contenedor{
+    display: grid; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+   
+.main_contenedor{
+
+    background-image: url(../img/fondosmain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        
+
+}
+
+/*TITULO*/
+.contenedor_titulo{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    height: 40rem;
+}
+
+h1{
+    color: #f8f1ed;
+    text-align: center;
+    letter-spacing: 1rem;
+    font-family:'Cabin', sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    padding: 1.5rem;
+    }
+    
+/*PARRAFO DEL TITULO*/
+    .parrafo_main{  
+    color:#21130d;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-style: italic;
+    font-size: 1.3rem;
+    font-weight: bold;}
+
+/*PEQUEÑA DESCRIPCION*/
+.div_subtitulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    background-color: #21130d;
+    max-width: 100%;
+}
+/*SUBTITULO*/
+.h2{
+    font-family: 'Lobster', cursive;
+    color: #f8f1ed;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.6rem;
+    }
+/*PARRAFO DEL SUBTITULO*/
+    .parrafo1{
+    color: #f8f1ed;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1rem;
+    }   
+
+/*PAGINA 2- QUIENES SOMOS*/
+
+.h2_pag2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #21130d;
+    font-family: 'Lobster', cursive;
+    color: #f8f1ed;
+    height: 6rem;
+    text-align: center;
+}
+
+.parrafos{
+    font-size: 1.5rem;
+    color:#21130d;
+    font-weight: bold;
+    font-family: 'Dosis';
+    text-align: center;
+    margin: 4rem;
+}
+.imagen_div{
+    display: none;
+}
+.video{
+    display: none;
+}
+
+/*PAGINA 3 PRODUCTOS*/
+
+.container_fotos{
+    display: grid;
+    grid-template-rows:repeat(6, 1fr);
+    grid-template-columns:repeat(2, 200px);
+    gap: 10px;
+}
+
+
+
+
+
+
+/*PAGINA 4 PRECIOS*/
+
+.container_precios h2{
+    text-align: center;
+}
+.container_precios, ul, li{
+    text-align: center;
+    margin: 1rem;
+}
+.precios{
+    border: solid;
+}
+
+/*PAGINA 5 CONTACTO*/
+.grid_1, .grid_2{
+    margin:1.2rem;
+    padding: 0.8rem;
+    background:rgba(229,234,228,0.4);
+    color: #000;
+    border:solid;
+}
+
+.tituloh2{
+    margin-top: 3rem;
+    font-family: 'Lobster', cursive;
+}
+.parrafos{
+    font-size: 1rem;
+    color:#21130d;
+    
+    font-weight:bold;
+    padding: auto;
+    margin-top: 3rem;
+    font-family: 'Cabin', sans-serif;
+    text-align: justify;
+    
+}
+.whatsapp{
+    font-style: italic;
+    font-size: medium;
+    font-weight: bold;
+    color: #055d2d;
+    text-decoration: none;
+}
+
+.form-label{
+    font-family:'Cabin', sans-serif; 
+    font-style: italic;
+    font-size: 1.2rem;
+
+}
+
+/*FOOTER*/
+
+.footer_Contenedor{
+    background-color: #f5f5dc;
+    display: grid;
+    height: 100%;
+    }
+    /*TEXTO*/
+    h3{
+        font-family: 'Dosis', sans-serif;
+        color: #21130d;
+        font-size:1.3rem;
+        padding: 1.2rem;
+        font-weight: bold;
+    }
+    
+.box_div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f5f5dc;
+        }
+/*LOGOS DE WHATSAPP E INSTAGRAM*/
+.redes{
+    height: 2rem;
+    width: 2rem;
+    margin: 0;
+}
+
+
+/*DESKTOP*/
+
+@media screen and (min-width:768px){
+
+
+.imagen_div{
+    display: flex;
+}
+.navbar-brand, img {
+    height: 8rem;
+    width: 8rem;}
+/*NAVEGADOR*/
+.navbar-collapse{
+    display: flex;
+    flex-direction:row-reverse;
+}
+.nav-link{
+    font-size: 1rem;
+}
+/*MAIN*/
+    
+    /*CONTENEDOR DEL MAIN*/
+    .main_contenedor{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        }
+    .div_main{
+        width: 100%;
+    }
+        /*TITULO*/
+        .contenedor_titulo{
+            padding-top:5rem;
+            padding-bottom: 5rem;
+            height: 40rem;
+        }
+        h1{
+        
+        letter-spacing: 2rem;
+        font-size: 3rem;
+        padding: 3rem;
+        }
+        
+        /*PARRAFO DENTRO DEL MAIN*/
+        .parrafo_main{  
+        text-align: center;
+        font-style: italic;
+        font-size: 2rem;
+       }
+        
+
+       .div_contenedor{
+        background-color: #21130d;
+        height: 20rem;
+        
+        }
+        /*SUBTITULO FUERa DEL MAIN*/
+
+    .div_contenedor{
+        max-width: 100%;
+    }
+        .h2{ background-color: #21130d;
+        font-family: 'Lobster', cursive;
+        color: #f8f1ed;
+        letter-spacing: 1rem;
+        text-align: center;
+        
+        font-size: 2rem;
+        }
+        /*PARRAFO DEL SUBTITULO*/
+        .parrafo1{
+        color: #f8f1ed;
+        font-family: 'Dosis', sans-serif;
+        
+        font-size: 1.5rem;
+        }   
+/*PAGINA 2 QUIENES SOMOS*/
+
+.quienessomos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+.div_img{
+    display: flex;
+    justify-content: center;}
+
+.imagen_div{
+    width: 50%;
+    height: 50%;
+}
+.Nproductos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    align-items: center;
+    justify-items: center;
+}
+
+.video{
+    display: flex;
+}
+
+/*PAGINA 3 PRODUCTOS*/
+.titulo-productos{
+    background-color: #21130d;
+}
+.parrafo-producto{
+    font-family:  'Dosis', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+}
+.container_fotos{
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr);
+    grid-template-rows:  repeat(3, 300px);
+    grid-gap: 30px;
+}
+.fotos{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 100%;
+    align-items: flex-start;
+   
+}
+.imgp{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+/*PAGINA 4 PRECIOS*/
+
+.box-hojaldre{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.titulo-h3, .precio-h2{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+section, article,div,ul,li{
+    text-align: center;
+    font-family:'Dosis', sans-serif ;
+    font-weight: bold;
+    
+}
+.container_precios{
+ background-color:    rgba(183, 186, 160, 0.5);
+}
+.div-lista{
+    margin-top: 7rem;
+    margin-bottom: 10rem;
+    
+}
+.div-precio{
+    padding: 1rem;
+}
+/*PAGINA 5 CONTACTO*/
+
+.div_grid{
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+.grid_1{
+grid-column: 1/2;
+}
+.grid_2{
+    grid-column: 2/3;
+   }
+.tituloh2{
+    font-size: 2rem;
+}
+   .parrafos{
+    font-size: 1.3rem;}
+
+.form-label{
+   font-size: 1.3rem;
+}
+.whatsapp{
+    font-size: 1.3rem;
+}
+
+/*FOOTER*/
+.footer_Contenedor{
+    background-color: #f5f5dc;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    }
+    /*TEXTO*/
+    h3{
+    
+    font-size: 1.3rem;
+    padding: 1.2rem;
+    }
+    
+    .box_div{
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #f5f5dc;
+        }
+    
+    /*LOGOS DE WHATSAPP E INSTAGRAM*/
+    .redes {
+    height: 3rem;
+    width: 3rem;
+    
+}
+}
