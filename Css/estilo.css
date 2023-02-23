@@ -97,7 +97,7 @@ h1{
     font-family:'Cabin', sans-serif;
     font-size: 2rem;
     font-style: normal;
-    padding: 1.5rem;
+    padding-bottom: 1.5rem;
     }
     
 /*PARRAFO DEL TITULO*/
@@ -133,6 +133,7 @@ h1{
     color: #f8f1ed;
     font-family: 'Dosis', sans-serif;
     font-size: 1rem;
+    padding: 1rem;
     }   
 
 /*PAGINA 2- QUIENES SOMOS*/
@@ -170,12 +171,7 @@ h1{
     grid-template-rows:repeat(6, 1fr);
     grid-template-columns:repeat(2, 200px);
     gap: 10px;
-}
-
-
-
-
-
+}    
 
 /*PAGINA 4 PRECIOS*/
 
@@ -206,12 +202,9 @@ h1{
 .parrafos{
     font-size: 1rem;
     color:#21130d;
-    
     font-weight:bold;
-    padding: auto;
-    margin-top: 3rem;
     font-family: 'Cabin', sans-serif;
-    text-align: justify;
+    text-align: center;
     
 }
 .whatsapp{
@@ -235,6 +228,7 @@ h1{
     background-color: #f5f5dc;
     display: grid;
     height: 100%;
+    padding-bottom: 1.3rem;
     }
     /*TEXTO*/
     h3{
@@ -263,14 +257,14 @@ h1{
 
 @media screen and (min-width:768px){
 
-
+/*NAVEGADOR*/
 .imagen_div{
     display: flex;
 }
 .navbar-brand, img {
     height: 8rem;
     width: 8rem;}
-/*NAVEGADOR*/
+
 .navbar-collapse{
     display: flex;
     flex-direction:row-reverse;
@@ -280,63 +274,64 @@ h1{
 }
 /*MAIN*/
     
-    /*CONTENEDOR DEL MAIN*/
-    .main_contenedor{
-        
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        }
-    .div_main{
+
+.main_contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div_main{
         width: 100%;
     }
-        /*TITULO*/
-        .contenedor_titulo{
-            padding-top:5rem;
-            padding-bottom: 5rem;
-            height: 40rem;
-        }
-        h1{
-        
-        letter-spacing: 2rem;
-        font-size: 3rem;
-        padding: 3rem;
-        }
-        
-        /*PARRAFO DENTRO DEL MAIN*/
-        .parrafo_main{  
-        text-align: center;
-        font-style: italic;
-        font-size: 2rem;
-       }
-        
 
-       .div_contenedor{
-        background-color: #21130d;
-        height: 20rem;
-        
+/*TITULO*/
+.contenedor_titulo{
+    padding-top:5rem;
+    padding-bottom: 5rem;
+    height: 40rem;
         }
-        /*SUBTITULO FUERa DEL MAIN*/
-
-    .div_contenedor{
-        max-width: 100%;
+/*texto*/
+h1{
+    letter-spacing: 2rem;
+    font-size: 3rem;
+    padding: 3rem;
     }
-        .h2{ background-color: #21130d;
-        font-family: 'Lobster', cursive;
-        color: #f8f1ed;
-        letter-spacing: 1rem;
-        text-align: center;
         
-        font-size: 2rem;
-        }
-        /*PARRAFO DEL SUBTITULO*/
-        .parrafo1{
-        color: #f8f1ed;
-        font-family: 'Dosis', sans-serif;
+/*PARRAFO*/
+.parrafo_main{  
+    text-align: center;
+    font-style: italic;
+    font-size: 2rem;
+    }
         
-        font-size: 1.5rem;
-        }   
+
+.div_contenedor{
+    background-color: #21130d;
+    height: 20rem;
+        
+    }
+/*PEQUEÑA DESCRIPCION*/
+
+.div_contenedor{
+    max-width: 100%;
+    }
+/*SUBTITULO*/
+.h2{ 
+    background-color: #21130d;
+    font-family: 'Lobster', cursive;
+    color: #f8f1ed;
+    letter-spacing: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    }
+/*PARRAFO DEL SUBTITULO*/
+.parrafo1{
+    color: #f8f1ed;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+    }   
+
 /*PAGINA 2 QUIENES SOMOS*/
 
 .quienessomos{
@@ -356,7 +351,6 @@ h1{
 .Nproductos{
     display: grid;
     grid-template-columns: 1fr 1fr;
-
     align-items: center;
     justify-items: center;
 }
@@ -388,8 +382,8 @@ h1{
     align-items: center;
     height: 100%;
     align-items: flex-start;
-   
 }
+
 .imgp{
     height: 100%;
     width: 100%;
@@ -413,39 +407,46 @@ section, article,div,ul,li{
     
 }
 .container_precios{
- background-color:    rgba(183, 186, 160, 0.5);
+    background-color:rgba(183, 186, 160, 0.5);
 }
+
 .div-lista{
     margin-top: 7rem;
     margin-bottom: 10rem;
     
 }
+
 .div-precio{
     padding: 1rem;
 }
+
 /*PAGINA 5 CONTACTO*/
 
 .div_grid{
     display: grid;
-    
     grid-template-columns: 1fr 1fr;
     justify-content: center;
 }
+
 .grid_1{
 grid-column: 1/2;
 }
+
 .grid_2{
     grid-column: 2/3;
-   }
+}
+
 .tituloh2{
     font-size: 2rem;
 }
-   .parrafos{
+
+.parrafos{
     font-size: 1.3rem;}
 
 .form-label{
-   font-size: 1.3rem;
+    font-size: 1.3rem;
 }
+
 .whatsapp{
     font-size: 1.3rem;
 }
@@ -457,22 +458,22 @@ grid-column: 1/2;
     grid-template-columns: 1fr 1fr;
     width: 100%;
     }
-    /*TEXTO*/
-    h3{
-    
+/*TEXTO*/
+
+h3{
     font-size: 1.3rem;
     padding: 1.2rem;
     }
     
-    .box_div{
-        display: flex;
-            flex-direction: column;
-            align-items: center;
-            background-color: #f5f5dc;
-        }
+.box_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5dc;
+    }
     
-    /*LOGOS DE WHATSAPP E INSTAGRAM*/
-    .redes {
+/*LOGOS DE WHATSAPP E INSTAGRAM*/
+.redes {
     height: 3rem;
     width: 3rem;
     
