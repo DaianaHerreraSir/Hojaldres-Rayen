@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     }
     
     
@@ -170,9 +171,34 @@ h1{
     display: grid;
     grid-template-rows:repeat(6, 1fr);
     grid-template-columns:repeat(2, 200px);
-    gap: 10px;
-}    
+    gap: 30px;
+    justify-content: center;
+}
+.parrafo-producto{
+    font-family:  'Dosis', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.fotos{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 100%;
+ 
+}
+.imgp{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
 
+.nombresprod{
+    font-size: 1.2rem;
+    color:#21130d;
+   
+}
 /*PAGINA 4 PRECIOS*/
 
 .container_precios h2{
@@ -182,8 +208,22 @@ h1{
     text-align: center;
     margin: 1rem;
 }
+.titulo-h3, .precio-h2{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+section, article,div,ul,li{
+    text-align: center;
+    font-family:'Dosis', sans-serif ;
+    font-weight: bold;
+    
+}
 .precios{
     border: solid;
+}
+
+.container_precios{
+    background-color:rgba(183, 186, 160, 0.5);
 }
 
 /*PAGINA 5 CONTACTO*/
@@ -340,6 +380,7 @@ h1{
     align-items: center;
     justify-items: center;
 }
+
 .div_img{
     display: flex;
     justify-content: center;}
@@ -349,26 +390,37 @@ h1{
     height: 50%;
 }
 .Nproductos{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     justify-items: center;
 }
 
 .video{
     display: flex;
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    margin: 2rem;
+}
+
+.textofinal{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    height: 250px;
+    white-space:break-spaces;
 }
 
 /*PAGINA 3 PRODUCTOS*/
-.titulo-productos{
-    background-color: #21130d;
-}
+
 .parrafo-producto{
     font-family:  'Dosis', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
-    font-style: italic;
+   
 }
 .container_fotos{
     display: grid;
@@ -376,19 +428,11 @@ h1{
     grid-template-rows:  repeat(3, 300px);
     grid-gap: 30px;
 }
-.fotos{
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    height: 100%;
-    align-items: flex-start;
-}
-
 .imgp{
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-}
+    height: 80%;
+    width: 80%;}
+
+
 
 /*PAGINA 4 PRECIOS*/
 
@@ -406,9 +450,7 @@ section, article,div,ul,li{
     font-weight: bold;
     
 }
-.container_precios{
-    background-color:rgba(183, 186, 160, 0.5);
-}
+
 
 .div-lista{
     margin-top: 7rem;
